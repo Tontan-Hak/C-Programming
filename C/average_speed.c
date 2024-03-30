@@ -1,8 +1,6 @@
-
-
 #include <stdio.h>
 
-void main()
+int main()
 {
     float distance, speed, time;
     int hours, minutes, seconds;
@@ -22,8 +20,9 @@ void main()
 
     speed = distance / time;
 
-    printf("Average speed = %.10f km/h\n", speed);
+    printf("Average speed = %.2f km/h\n", speed);
 
     printf("*** END OF PROGRAM ***\n");
 
+    return 0;
 }
