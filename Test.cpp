@@ -2,12 +2,15 @@
 #include <vector>
 #include <string>
 
-// using namespace std;
+using namespace std;
 
 int main()
 {
+    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
-int  i = 100;
-printf("%d", i);
-return 0;
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
 }
