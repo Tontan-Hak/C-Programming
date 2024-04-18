@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     float distance, speed, time;
     int hours, minutes, seconds;
@@ -15,7 +15,6 @@ int main()
     scanf("%d", &minutes);
 
     seconds = hours * 3600 + minutes * 60;
-
     time = seconds / 3600.0;
 
     speed = distance / time;
