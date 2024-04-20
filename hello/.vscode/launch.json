@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/tontan/C-Programming/C/C For Everybody",
-      "program": "/Users/tontan/C-Programming/C/C For Everybody/build/Debug/outDebug"
+      "cwd": "/Users/tontan/C-Programming/hello",
+      "program": "/Users/tontan/C-Programming/hello/build/Debug/outDebug"
     }
   ]
 }
