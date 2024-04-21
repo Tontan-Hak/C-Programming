@@ -3,11 +3,13 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppvsdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/tontan/C-Programming",
-      "program": "/Users/tontan/C-Programming/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "c:/Users/DELL/Documents/C-Programming",
+      "program": "c:/Users/DELL/Documents/C-Programming/build/Debug/outDebug"
     }
   ]
 }
