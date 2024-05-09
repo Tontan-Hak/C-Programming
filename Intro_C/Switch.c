@@ -28,5 +28,4 @@ int main() {
             printf("Invalid day");
     }
     return 0;
-}
-
+} 
